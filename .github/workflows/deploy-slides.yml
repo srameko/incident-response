@@ -36,6 +36,12 @@ jobs:
       - name: Build Slidev
         run: npm run build
 
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Export PDF
+        run: npx slidev export --output dist/incident-response.pdf
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
