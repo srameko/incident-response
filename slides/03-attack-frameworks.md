@@ -5,7 +5,7 @@ subtitle: Kill Chain, MITRE ATT&CK, Unified…
 # Attack Frameworks
 ---
 layout: image-right
-image: /kill-chain.png
+image: /attack-frameworks.png
 ---
 # Attack Frameworks
 

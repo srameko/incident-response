@@ -5,7 +5,7 @@ subtitle: 1-10-60
 # Triage
 ---
 layout: image-right
-image: /1-10-60.png
+image: /1-10-60.jpg
 ---
 # 1 – 10 – 60
 
