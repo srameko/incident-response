@@ -4,6 +4,8 @@ Slides for the **Incident Response** workshop, prepared as a study resource for 
 
 **View the presentation:** [srameko.github.io/incident-response](https://srameko.github.io/incident-response/)
 
+**Download PDF:** [incident-response.pdf](https://srameko.github.io/incident-response/incident-response.pdf)
+
 ## Topics covered
 
 - What is an incident (Event → Alert → Incident)
