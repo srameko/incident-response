@@ -14,7 +14,7 @@ fonts:
 layout: bio
 image: /ondrej.png
 name: "Ondřej Šrámek"
-subtitle: "Cyber Security Lecturer"
+subtitle: "GMON GNFA GCTI"
 ---
 - Pracoval pro státní správu i komerční sektor
 - 12+ let v oboru, převážně Incident Response, DFIR, Threat Hunting a Threat Intelligence
@@ -57,7 +57,7 @@ layout: center
 # Děkujeme za pozornost!
 Ondřej Šrámek
 
-**Czechitas · DA Kybernetická bezpečnost · 2025**
+**Czechitas · DA Kybernetická bezpečnost · 2026**
 ---
 layout: center
 ---
