@@ -9,34 +9,34 @@ image: /kill-chain.png
 ---
 # Attack Frameworks
 
-Detekce často ukazuje **fázi útoku** – jak daleko útočník je.
+Detection often reveals the **attack phase** – how far the attacker has progressed.
 
-- Jak vážné to je?
-- Má stále uživatelská práva, nebo eskaloval?
-- **Reakce závisí na fázi:**
+- How serious is it?
+- Does the attacker still have user privileges, or have they escalated?
+- **Response depends on the phase:**
   - Host Isolation vs. Process Kill
-  - Reset hesla – příští přihlášení, nebo okamžitě?
-  - Revokace session / tokenu
+  - Password reset – on next login, or immediately?
+  - Session / token revocation
 ---
 layout: image-right
 image: /mitre-attck.png
 ---
 # MITRE ATT&CK
 
-Globálně sdílená znalostní báze taktik a technik útočníků.
+A globally shared knowledge base of attacker tactics and techniques.
 
-- Strukturovaný popis chování (TTPs)
-- Mapování detekcí na konkrétní techniky
-- Základ pro Threat Intelligence a Threat Hunting
+- Structured description of behavior (TTPs)
+- Mapping detections to specific techniques
+- Foundation for Threat Intelligence and Threat Hunting
 ---
 layout: image-right
 image: /cyber-unified.png
 ---
 # Cyber / MITRE / Unified
 
-**Různé pokrytí frameworků:**
+**Different framework coverage:**
 
-- Záleží na použitém toolingu
-- Kill Chain – lineární, jednoduchý
-- MITRE ATT&CK – detailní, nepravidelný
-- Unified Kill Chain – kombinuje obojí
+- Depends on the tooling used
+- Kill Chain – linear, simple
+- MITRE ATT&CK – detailed, non-linear
+- Unified Kill Chain – combines both

@@ -1,18 +1,18 @@
 ---
 layout: section
-subtitle: Od eventu k incidentu
+subtitle: From event to incident
 ---
-# Co je incident?
+# What is an Incident?
 ---
 layout: image-right
 image: /event-alert-incident.png
 ---
 # Event, Alert, Incident
 
-**Event** – zaznamenaná aktivita v systému (log, záznam)
+**Event** – recorded activity in a system (log, record)
 
-**Alert** – event, který splnil pravidlo detekce a upozornil tým
+**Alert** – an event that matched a detection rule and notified the team
 
-**Incident** – potvrzená bezpečnostní událost vyžadující reakci
+**Incident** – a confirmed security event requiring a response
 
-> Ne každý alert je incident. Triage rozhodne, co dál.
+> Not every alert is an incident. Triage decides what comes next.

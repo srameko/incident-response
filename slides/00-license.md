@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-# Použití materiálů
+# License
 
-Toto dílo je licencováno pod
+This work is licensed under
 
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**
 

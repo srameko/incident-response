@@ -1,37 +1,37 @@
 ---
 layout: section
 ---
-# Přehled
+# Summary
 ---
 layout: default
 ---
-# Přehled – Incident Response
+# Summary – Incident Response
 
-**Triage je klíčová**
-- 1-10-60 jako cíl reakce
-- Fáze útoku určuje závažnost a typ reakce
+**Triage is key**
+- 1-10-60 as the response target
+- Attack phase determines severity and response type
 
 **Response**
-- Závisí na typu incidentu
-- Izolace, eradikace, obnova
+- Depends on the incident type
+- Isolation, eradication, recovery
 
-**Eskalace**
-- Eskaluj včas, ne příliš pozdě
+**Escalation**
+- Escalate early, not too late
 ---
 layout: default
 ---
-# Zdroje a studijní opora
+# Resources & Further Reading
 
-| Zdroj | Popis |
-|-------|-------|
+| Resource | Description |
+|----------|-------------|
 | [NIST 800-61](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) | Computer Security Incident Handling Guide |
-| [SANS Cheat Sheet Booklet](https://www.sans.org/blog/sans-cheat-sheet-collection/) | Rychlé přehledy pro IR analytiky |
-| [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response) | Kurátorovaný seznam IR nástrojů a zdrojů |
-| [IR Playbooks → MITRE](https://github.com/austinsonger/Incident-Playbook) | Playbooks mapované na MITRE ATT&CK |
+| [SANS Cheat Sheet Booklet](https://www.sans.org/blog/sans-cheat-sheet-collection/) | Quick reference sheets for IR analysts |
+| [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response) | Curated list of IR tools and resources |
+| [IR Playbooks → MITRE](https://github.com/austinsonger/Incident-Playbook) | Playbooks mapped to MITRE ATT&CK |
 ---
 layout: default
 ---
-# Další kurzy a praxe
+# Further Courses & Practice
 
 <div class="icon-grid">
   <div class="icon-card">
@@ -48,6 +48,6 @@ layout: default
   </div>
   <div class="icon-card">
     <div class="icon">🎯</div>
-    <div class="label">CTF soutěže</div>
+    <div class="label">CTF competitions</div>
   </div>
 </div>

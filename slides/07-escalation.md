@@ -1,23 +1,23 @@
 ---
 layout: section
-subtitle: Od L1 k L3
+subtitle: From L1 to L3
 ---
-# Eskalace
+# Escalation
 ---
 layout: default
 ---
-# Eskalační proces
+# Escalation Process
 
-**Vyšší úrovně (L2 / L3) – kdy eskalovat:**
+**Higher tiers (L2 / L3) – when to escalate:**
 
-- Potřebuješ pomoc s vyšetřováním
-- Je potřeba okamžitá akce (Hands on Keyboard)
+- You need help with the investigation
+- Immediate action is required (Hands on Keyboard)
 
 **Detection Engineering:**
 
-- Je nutné ladění detekce
+- Detection tuning is needed
 - False Positive / False Negative
-- Whitelisting legitimního procesu / domény / …
-- Detekce legitimního chování
+- Whitelisting a legitimate process / domain / …
+- Detection of legitimate behavior
 
-**Obecné pravidlo:** Eskaluj dříve, než bude pozdě. Lepší zbytečná eskalace než pozdní reakce.
+**General rule:** Escalate before it's too late. Better a needless escalation than a late response.

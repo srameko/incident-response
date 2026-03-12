@@ -16,8 +16,8 @@ image: /ondrej.png
 name: "Ondřej Šrámek"
 subtitle: "GMON GNFA GCTI"
 ---
-- Pracoval pro státní správu i komerční sektor
-- 12+ let v oboru, převážně Incident Response, DFIR, Threat Hunting a Threat Intelligence
+- Worked in the public sector and commercial sector
+- 12+ years in the field, primarily Incident Response, DFIR, Threat Hunting and Threat Intelligence
 ::qr::
 <QRCode url="https://linktr.ee/ondrejsramek" :size="120">Linktree</QRCode>
 ---
@@ -54,12 +54,12 @@ layout: section
 ---
 layout: center
 ---
-# Děkujeme za pozornost!
+# Thank You for Your Attention!
 Ondřej Šrámek
 
-**Czechitas · DA Kybernetická bezpečnost · 2026**
+**Czechitas · DA Cybersecurity · 2026**
 ---
 layout: center
 ---
-# Zpětná vazba
-Budeme rádi za vaši zpětnou vazbu!
+# Feedback
+We'd love to hear your feedback!

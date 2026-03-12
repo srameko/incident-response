@@ -1,74 +1,74 @@
 ---
 layout: section
-subtitle: Podle NIST & SANS
+subtitle: According to NIST & SANS
 ---
-# Incident Response Cyklus
+# Incident Response Cycle
 ---
 layout: image-right
 image: /ir-cycle.png
 ---
-# Incident Response Cyklus
+# Incident Response Cycle
 
-Čtyři základní fáze podle NIST a SANS:
+Four fundamental phases according to NIST and SANS:
 
-1. **Preparation** – příprava
-2. **Detection & Analysis** – detekce a analýza
-3. **Containment, Eradication & Recovery** – omezení, odstranění, obnova
-4. **Post-Incident Analysis** – analýza po incidentu
+1. **Preparation**
+2. **Detection & Analysis**
+3. **Containment, Eradication & Recovery**
+4. **Post-Incident Analysis**
 ---
 layout: default
 ---
-# 1. Příprava (Preparation)
+# 1. Preparation
 
-Vytvoření Incident Response Plan (IRP), definice rolí a odpovědností, sestavení týmu a implementace bezpečnostních kontrol.
+Creating an Incident Response Plan (IRP), defining roles and responsibilities, building the team, and implementing security controls.
 
-**Struktura týmu:** SOC / CIRT / CERT
+**Team structure:** SOC / CIRT / CERT
 
-**Model týmu:** Flat vs. Layered
+**Team model:** Flat vs. Layered
 
-**Dovednosti:** Specializace vs. univerzální znalosti
+**Skills:** Specialization vs. generalist knowledge
 
-**Pokrytí:** 8/5 · 24/7 · Follow the Sun · On-call
+**Coverage:** 8/5 · 24/7 · Follow the Sun · On-call
 
-**SOP:** Obecné i specifické pro kategorii hrozby
+**SOP:** General and threat-category specific
 
-**Kontakty:** CISO · Fyzická bezpečnost · IT · PR · HR…
+**Contacts:** CISO · Physical Security · IT · PR · HR…
 ---
 layout: default
 ---
-# 2. Detekce a analýza (Detection & Analysis)
+# 2. Detection & Analysis
 
-Incidenty jsou detekovány pomocí monitorovacích a alertovacích mechanismů. Analytici vyšetřují, sbírají důkazy a hodnotí dopad.
+Incidents are detected using monitoring and alerting mechanisms. Analysts investigate, collect evidence, and assess impact.
 
-**Nástroje:** SIEM · EDR · SOAR · Forensics
+**Tools:** SIEM · EDR · SOAR · Forensics
 
-**Detekce:** Signatury · Behaviorální detekce · Threat Intelligence…
+**Detection:** Signatures · Behavioral detection · Threat Intelligence…
 
-**Triage:** Dopad · Závažnost
+**Triage:** Impact · Severity
 
-**IR > DF** – Incident Response má přednost před digitální forenzní analýzou
+**IR > DF** – Incident Response takes precedence over digital forensic analysis
 ---
 layout: default
 ---
-# 3. Omezení, odstranění a obnova
+# 3. Containment, Eradication & Recovery
 
-Po potvrzení incidentu se okamžitě jedná – omezení šíření, eradikace hrozby a obnova postižených systémů.
+Once an incident is confirmed, immediate action is taken – containing the spread, eradicating the threat, and recovering affected systems.
 
-**Akce:** Izolace vs. Process Kill / Odstranění artefaktů (Business Continuity)
+**Actions:** Isolation vs. Process Kill / Artifact Removal (Business Continuity)
 
-- Závisí na vlastníkovi aktiva – security může vést, ale…
-- Plány pro Business Continuity & Disaster Recovery
-- Zapojení dalších business jednotek (které mohou vést)
+- Depends on the asset owner – security may lead, but…
+- Business Continuity & Disaster Recovery plans
+- Involvement of other business units (which may take the lead)
 ---
 layout: default
 ---
-# 4. Analýza po incidentu (Post-Incident Analysis)
+# 4. Post-Incident Analysis
 
-Po vyřešení incidentu se provede komplexní analýza – příčiny, slabiny a opatření pro prevenci.
+After the incident is resolved, a comprehensive analysis is conducted – causes, weaknesses, and preventive measures.
 
-- **Root Cause** – kořenová příčina
-- **Reporting & Sharing** – sdílení informací
-- **Lessons Learned** – ponaučení
+- **Root Cause** – root cause analysis
+- **Reporting & Sharing** – information sharing
+- **Lessons Learned**
 - **Weakness → Hardening / Patching**
-- **Vylepšení detekcí / log coverage**
-- **Chybějící nebo nedostatečné procesy**
+- **Improve detections / log coverage**
+- **Missing or insufficient processes**

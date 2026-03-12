@@ -9,32 +9,32 @@ image: /1-10-60.png
 ---
 # 1 – 10 – 60
 
-Cílové časy reakce podle CrowdStrike:
+Target response times according to CrowdStrike:
 
-| Čas | Akce |
-|-----|------|
-| **1 min** | Detekce a alert |
-| **10 min** | Vyšetřování (triage) |
-| **60 min** | Omezení (containment) |
+| Time | Action |
+|------|--------|
+| **1 min** | Detection and alert |
+| **10 min** | Investigation (triage) |
+| **60 min** | Containment |
 
-Čím rychleji tým reaguje, tím menší škody útočník způsobí.
+The faster the team responds, the less damage the attacker causes.
 ---
 layout: default
 ---
-# Fáze útoku (Stage of the Attack)
+# Attack Stage
 
-**Kde útočník je?**
+**Where is the attacker?**
 
-- Iniciální přístup
+- Initial Access
 - Privilege Escalation
 - Action on Objectives
 
-**Analýza dopadu:**
+**Impact Analysis:**
 
-- Nejhorší dosažená taktika / technika
-- Co útočník provedl?
+- Worst tactic / technique reached
+- What did the attacker do?
 
-**Reverzibilita:**
+**Reversibility:**
 
-- **Reverzibilní** (standardizace) → menší dopad na provoz
-- **Nevratné** (reimaging / obnova ze zálohy) → větší dopad na provoz
+- **Reversible** (standardization) → lower operational impact
+- **Irreversible** (reimaging / restore from backup) → higher operational impact

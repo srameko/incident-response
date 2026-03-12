@@ -1,17 +1,17 @@
 ---
 layout: section
-subtitle: Co nás dnes čeká
+subtitle: What's ahead today
 ---
-# Obsah
+# Agenda
 ---
 layout: default
 ---
-# Obsah
+# Agenda
 
 <div class="icon-grid">
   <div class="icon-card">
     <div class="icon">❓</div>
-    <div class="label">Co je incident?</div>
+    <div class="label">What is an incident?</div>
   </div>
   <div class="icon-card">
     <div class="icon">🗺️</div>
@@ -19,7 +19,7 @@ layout: default
   </div>
   <div class="icon-card">
     <div class="icon">🔄</div>
-    <div class="label">Incident Response (cyklus)</div>
+    <div class="label">Incident Response (cycle)</div>
   </div>
   <div class="icon-card">
     <div class="icon">🔍</div>
@@ -27,7 +27,7 @@ layout: default
   </div>
   <div class="icon-card">
     <div class="icon">📈</div>
-    <div class="label">Eskalace</div>
+    <div class="label">Escalation</div>
   </div>
   <div class="icon-card">
     <div class="icon">💬</div>

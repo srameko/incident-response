@@ -1,25 +1,25 @@
 ---
 layout: section
-subtitle: Jak reagovat na…
+subtitle: How to respond to…
 ---
 # Response
 ---
 layout: default
 ---
-# Jak reagovat na…
+# How to respond to…
 
 <div class="icon-grid">
   <div class="icon-card">
     <div class="icon">🎣</div>
-    <div class="label">Uživatel klikl na phishing</div>
+    <div class="label">User clicked a phishing link</div>
   </div>
   <div class="icon-card">
     <div class="icon">📄</div>
-    <div class="label">Uživatel otevřel maldoc (Word / Excel / PDF)</div>
+    <div class="label">User opened a maldoc (Word / Excel / PDF)</div>
   </div>
   <div class="icon-card">
     <div class="icon">🛡️</div>
-    <div class="label">AV detekoval malware (za běhu)</div>
+    <div class="label">AV detected malware (at runtime)</div>
   </div>
   <div class="icon-card">
     <div class="icon">🔒</div>
@@ -31,75 +31,75 @@ layout: default
   </div>
   <div class="icon-card">
     <div class="icon">📱</div>
-    <div class="label">Ztracené zařízení / Úniklé přihlašovací údaje</div>
+    <div class="label">Lost device / Leaked credentials</div>
   </div>
 </div>
 ---
 layout: default
 ---
-# Phishing – uživatel klikl na odkaz
+# Phishing – user clicked a link
 
-1. Izolovat zařízení od sítě
-2. Zkontrolovat, zda zadal přihlašovací údaje
-3. Resetovat heslo – okamžitě / příští přihlášení dle rizika
-4. Revokovat aktivní session / tokeny
-5. Zkontrolovat mail server – blokovat phishingový sender/doménu
-6. Threat Intelligence – je odkaz součástí širší kampaně?
+1. Isolate the device from the network
+2. Check if credentials were entered
+3. Reset password – immediately / on next login based on risk
+4. Revoke active sessions / tokens
+5. Check mail server – block the phishing sender/domain
+6. Threat Intelligence – is the link part of a broader campaign?
 ---
 layout: default
 ---
-# Maldoc – uživatel otevřel škodlivý dokument
+# Maldoc – user opened a malicious document
 
-1. Izolovat zařízení
-2. Zjistit, zda byl spuštěn macro / shell / payload
-3. EDR – zkontrolovat process tree a child procesy
-4. Artifact collection – vzorky pro analýzu
-5. Eradikace – smazání artefaktů nebo reimaging
-6. Ponaučení – jak dokument prošel přes mail gateway?
+1. Isolate the device
+2. Determine if a macro / shell / payload was executed
+3. EDR – check process tree and child processes
+4. Artifact collection – samples for analysis
+5. Eradication – delete artifacts or reimage
+6. Lessons learned – how did the document pass through the mail gateway?
 ---
 layout: default
 ---
 # Ransomware
 
-1. **Okamžitá izolace** – odpojit zařízení i síťové segmenty
-2. Identifikovat „patient zero" a rozsah šíření
-3. Business Continuity – co je kritické pro provoz?
-4. Zálohy – jsou nepostižené? Jsou offline / immutable?
-5. Komunikace – CISO, právníci, PR, případně regulátor
-6. Rozhodnutí: obnova vs. reimaging vs. platba (poslední možnost)
-7. Post-incident: jak ransomware vstoupil? Initial access vector?
+1. **Immediate isolation** – disconnect devices and network segments
+2. Identify "patient zero" and the scope of spread
+3. Business Continuity – what is critical for operations?
+4. Backups – are they unaffected? Are they offline / immutable?
+5. Communication – CISO, legal, PR, and possibly regulators
+6. Decision: restore vs. reimage vs. payment (last resort)
+7. Post-incident: how did ransomware enter? Initial access vector?
 ---
 layout: default
 ---
 # (D)DoS
 
-- **Identifikovat typ:** Volumetrický, Protocol, Application-layer
-- Kontaktovat ISP / CDN / DDoS ochranu (Cloudflare, Akamai…)
+- **Identify type:** Volumetric, Protocol, Application-layer
+- Contact ISP / CDN / DDoS protection (Cloudflare, Akamai…)
 - Rate limiting, IP blacklisting, geo-blocking
-- Zkontrolovat, zda DDoS není smoke-screen pro jiný útok
-- Sledovat dostupnost služeb a dopad na zákazníky
+- Check whether DDoS is a smoke screen for another attack
+- Monitor service availability and customer impact
 ---
 layout: default
 ---
-# Ztracené zařízení
+# Lost Device
 
-- Kontaktovat fyzickou bezpečnost – v případě krádeže i policii
-- Někdy je nutné potvrzení od policie (pojistka, GDPR hlášení)
-- **Brick the device** – rotace šifrovacího klíče disku
-- Vzdálený wipe
+- Contact physical security – in case of theft, also contact police
+- Police confirmation may be required (insurance, GDPR reporting)
+- **Brick the device** – rotate the disk encryption key
+- Remote wipe
 ---
 layout: default
 ---
-# Úniklé přihlašovací údaje
+# Leaked Credentials
 
-Notifikace od poskytovatele / CTI / OSINT / Letter Agency.
+Notification from provider / CTI / OSINT / Law Enforcement.
 
-**Identifikace:**
-- Postižení uživatelé
-- Co bylo úniklé a z jakého zařízení
+**Identification:**
+- Affected users
+- What was leaked and from which device
 
-**Typy úniku:** Heslo · Session tokeny · Hash · Telefonní číslo · PII
+**Leak types:** Password · Session tokens · Hash · Phone number · PII
 
-**Akce:**
-- Reset hesla / Revokace session / Revokace tokenu
-- Notifikovat uživatele – vše úniklé musí být změněno / chráněno!
+**Actions:**
+- Password reset / Session revocation / Token revocation
+- Notify users – everything leaked must be changed / protected!
