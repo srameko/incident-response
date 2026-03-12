@@ -1,0 +1,13 @@
+{
+  "name": "czechitas-incident-response",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /incident-response/ --out dist",
+    "preview": "npm run build && npx serve dist -l 4000"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.12.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
