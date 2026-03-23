@@ -45,6 +45,9 @@ src: ./slides/06-response.md
 src: ./slides/07-escalation.md
 ---
 ---
+src: ./slides/09-ai-in-ir.md
+---
+---
 src: ./slides/08-summary.md
 ---
 ---

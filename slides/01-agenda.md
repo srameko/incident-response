@@ -30,6 +30,10 @@ layout: default
     <div class="label">Escalation</div>
   </div>
   <div class="icon-card">
+    <div class="icon">🤖</div>
+    <div class="label">AI in Incident Response</div>
+  </div>
+  <div class="icon-card">
     <div class="icon">💬</div>
     <div class="label">Q&A</div>
   </div>
