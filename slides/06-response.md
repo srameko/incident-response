@@ -39,16 +39,22 @@ layout: default
 ---
 # Phishing – user clicked a link
 
+<v-clicks>
+
 1. Isolate the device from the network
 2. Check if credentials were entered
 3. Reset password – immediately / on next login based on risk
 4. Revoke active sessions / tokens
 5. Check mail server – block the phishing sender/domain
 6. Threat Intelligence – is the link part of a broader campaign?
+
+</v-clicks>
 ---
 layout: default
 ---
 # Maldoc – user opened a malicious document
+
+<v-clicks>
 
 1. Isolate the device
 2. Determine if a macro / shell / payload was executed
@@ -56,10 +62,14 @@ layout: default
 4. Artifact collection – samples for analysis
 5. Eradication – delete artifacts or reimage
 6. Lessons learned – how did the document pass through the mail gateway?
+
+</v-clicks>
 ---
 layout: default
 ---
 # Ransomware
+
+<v-clicks>
 
 1. **Immediate isolation** – disconnect devices and network segments
 2. Identify "patient zero" and the scope of spread
@@ -68,25 +78,35 @@ layout: default
 5. Communication – CISO, legal, PR, and possibly regulators
 6. Decision: restore vs. reimage vs. payment (last resort)
 7. Post-incident: how did ransomware enter? Initial access vector?
+
+</v-clicks>
 ---
 layout: default
 ---
 # (D)DoS
 
-- **Identify type:** Volumetric, Protocol, Application-layer
-- Contact ISP / CDN / DDoS protection (Cloudflare, Akamai…)
-- Rate limiting, IP blacklisting, geo-blocking
-- Check whether DDoS is a smoke screen for another attack
-- Monitor service availability and customer impact
+<v-clicks>
+
+1. **Identify type:** Volumetric, Protocol, Application-layer
+2. Contact ISP / CDN / DDoS protection (Cloudflare, Akamai…)
+3. Rate limiting, IP blacklisting, geo-blocking
+4. Check whether DDoS is a smoke screen for another attack
+5. Monitor service availability and customer impact
+
+</v-clicks>
 ---
 layout: default
 ---
 # Lost Device
 
-- Contact physical security – in case of theft, also contact police
-- Police confirmation may be required (insurance, GDPR reporting)
-- **Brick the device** – rotate the disk encryption key
-- Remote wipe
+<v-clicks>
+
+1. Contact physical security – in case of theft, also contact police
+2. Police confirmation may be required (insurance, GDPR reporting)
+3. **Brick the device** – rotate the disk encryption key
+4. Remote wipe
+
+</v-clicks>
 ---
 layout: default
 ---
@@ -101,5 +121,9 @@ Notification from provider / CTI / OSINT / Law Enforcement.
 **Leak types:** Password · Session tokens · Hash · Phone number · PII
 
 **Actions:**
-- Password reset / Session revocation / Token revocation
-- Notify users – everything leaked must be changed / protected!
+<v-clicks>
+
+1. Password reset / Session revocation / Token revocation
+2. Notify users – everything leaked must be changed / protected!
+
+</v-clicks>
