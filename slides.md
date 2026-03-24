@@ -21,8 +21,6 @@ subtitle: "GMON GNFA GCTI"
 ::qr::
 <QRCode url="https://linktr.ee/ondrejsramek" :size="120">Linktree</QRCode>
 ---
-src: ./slides/00-license.md
----
 ---
 src: ./slides/01-agenda.md
 ---
