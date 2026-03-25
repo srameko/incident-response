@@ -2,6 +2,7 @@
 theme: ./theme
 title: Incident Response
 author: Ondřej Šrámek
+date: March 2026
 mdc: true
 shiki:
   theme: github-light
