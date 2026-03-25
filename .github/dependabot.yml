@@ -1,12 +1,7 @@
 version: 2
 updates:
-  # Before merging Actions PRs, verify the version tag actually exists on GitHub.
-  # Dependabot has been known to propose non-existent major versions (e.g. v6).
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: monthly
-
+  # GitHub Actions versions are managed manually — Dependabot repeatedly proposes
+  # non-existent major versions (e.g. checkout@v6, setup-node@v6).
   - package-ecosystem: npm
     directory: /
     schedule:
