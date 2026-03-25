@@ -1,19 +1,15 @@
 ---
 theme: ./theme
 title: Incident Response
+subtitle: Digital Academy — Cybersecurity
 author: Ondřej Šrámek
-date: March 2026
+date: 24.3.2026
 mdc: true
 shiki:
   theme: github-light
 fonts:
   sans: Open Sans
   mono: Source Code Pro
----
-layout: cover
-subtitle: Digital Academy — Cybersecurity
-author: Ondřej Šrámek
-date: 24.3.2026
 ---
 # Incident Response
 ---
