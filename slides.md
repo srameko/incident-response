@@ -64,4 +64,5 @@ Ondřej Šrámek
 layout: center
 ---
 # Feedback
-We'd love to hear your feedback!
+
+<QRCode url="https://moje.czechitas.cz/cs/zpetna-vazba" :size="200">Feedback form</QRCode>
