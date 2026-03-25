@@ -1,7 +1,7 @@
 ---
 theme: ./theme
 title: Incident Response
-subtitle: Digital Academy — Cybersecurity
+subtitle: Ondřej Šrámek
 author: Ondřej Šrámek
 date: 24.3.2026
 mdc: true
