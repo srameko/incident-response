@@ -10,12 +10,17 @@ fonts:
   sans: Open Sans
   mono: Source Code Pro
 ---
+layout: cover
+subtitle: Digital Academy — Cybersecurity
+author: Ondřej Šrámek
+date: 24.3.2026
+---
 # Incident Response
 ---
 layout: bio
 image: /ondrej.png
 name: "Ondřej Šrámek"
-subtitle: "GMON GNFA GCTI"
+subtitle: "GMON, GNFA, GCTI"
 ---
 - Worked in the public sector and commercial sector
 - 12+ years in the field, primarily Incident Response, DFIR, Threat Hunting and Threat Intelligence

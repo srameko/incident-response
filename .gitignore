@@ -6,6 +6,8 @@ dist/
 
 # Slidev cache
 .slidev/
+index.html
+*.local
 
 # Generated PDF (built in CI)
 *.pdf
